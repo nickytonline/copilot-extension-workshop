@@ -1,0 +1,23 @@
+{
+  "name": "copilot-extension-workshop",
+  "scripts": {
+    "dev": "node --watch --experimental-strip-types src/index.ts",
+    "start": "node --experimental-strip-types src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.8",
+    "hono": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.8"
+  },
+  "engines": {
+    "node": ">=22.13.1"
+  },
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Nick Taylor's GitHub Copilot Extension workshop project",
+  "main": "index.js",
+  "author": "Nick Taylor <nick@nickyt.co>",
+  "license": "MIT"
+}
